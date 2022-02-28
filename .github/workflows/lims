@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+
+<title>2022 | 2.28 임형섭</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style>
+        * {
+        font-family: 'Gowun Dodum', sans-serif;
+        }![](../../screencapture-starbucks-co-kr-index-do-2022-02-18-13_51_11.png)
+    .mytitle {
+        background-color: green;
+        height:250px;
+        width:100%;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg");
+        background-position: center;
+        background-size: cover;
+        color:white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mytitle > button {
+        width:200px;
+        height:50px;
+        background-color: transparent;
+        color:white;
+        border-radius: 50px;
+        border: 1px solid white;
+        margin-top:10px;
+    }
+        .mytitle > button:hover {
+        border: 2px solid white;
+        }
+        .mycomment{
+            color:grey;
+        }
+        .wrap{
+            max-width:1300px;
+            width:95%
+            margin:20px auto 0px auto;
+            margin-top:20px;
+        }
+        .mypost{
+            max-width:500px;
+            width:95%;
+            margin:18px auto 0px auto;
+            box-shadow: 0px 0px 3px 0px grey;
+            padding:20px
+        }
+        .mybtn{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top:10px;
+        }
+        .mybtn > button {
+            margin-right:10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mytitle">
+        <h1>롤창 실버 원딜러 임형섭의 생일 축하해❤️</h1>
+        <button>영화 기록하기</button>
+    </div>
+
+    <div class="mypost">
+            <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">임형섭 인생 점주수기</label>
+    </div>
+    <div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupSelect01">별점</label>
+  <select class="form-select" id="inputGroupSelect01">
+      <option selected>선택하기.</option>
+      <option value="1">⭐</option>
+      <option value="2">⭐⭐</option>
+      <option value="3">⭐⭐⭐</option>
+      <option value="4">⭐⭐⭐⭐</option>
+      <option value="5">⭐⭐⭐⭐⭐</option>
+  </select>
+</div>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                  style="height: 100px"></textarea>
+        <label for="floatingTextarea2">코맨트</label>
+    </div>
+        <dib class="mybtn">
+            <button type="button" class="btn btn-dark">응눌러봤자안됨</button>
+            <button type="button" class="btn btn-outline-dark">닫기</button>
+        </dib>
+    </div>
+
+        <div class="wrap">
+    <iv class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="midia/card1.png"
+                     class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">임형섭 탄신일</h5>
+                    <p class="card-text"> 2월28일 오늘 일을 다녀온 후 협곡으로 출근을 했다 픽창부터 애새끼들이 ㅈㄹ중이다</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="mycomment">임형섭 허접</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="midia/lim11.png"
+                     class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">오늘은 여장을 해봤당</h5>
+                    <p class="card-text">나 곤듀에욥!!</p>
+                    <p>⭐</p>
+                    <p class="mycomment">유미,잔나,소라카</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="midia/lim2.jpg"
+                     class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">생일날 씨티 타다가 죽을뻔한 썰 푼다</h5>
+                    <p class="card-text"></p>
+                    <p>⭐⭐⭐</p>
+                    <p class="mycomment">인천 탑원딜러</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="midia/lim44.png"
+                     class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">내 생일선물</h5>
+                    <p class="card-text"></p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="mycomment">밑에있음 잘써라!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="giftcard">
+            <img src="midia/gift.jpg" alt="gift">
+        </div>
+
+</body>
+
+
+</html>
